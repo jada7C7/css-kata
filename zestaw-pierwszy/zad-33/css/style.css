@@ -1,6 +1,10 @@
 #container {
     font-size: 12px;
     font-family: arial, sans-serif;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
 }
 
 p {
@@ -41,27 +45,25 @@ p {
 
 /*layout*/
 
-#wrapper {
-    float: left;
-    width: 100%;
-}
+#wrapper {}
 
 #content {
-    margin: 0 25%;
+    float: left;
+    width: 500px;
 }
 
 #navigation {
     float: left;
-    width: 25%;
-    margin-left: -100%;
+    width: 200px;
 }
 
 #extra {
     float: left;
-    width: 25%;
-    margin-left: -25%;
+    width: 200px;
+    clear: right;
 }
 
 #footer {
-    clear: left;
+    clear: both;
+    
 }

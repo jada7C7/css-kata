@@ -1,6 +1,7 @@
 #container {
     font-size: 12px;
     font-family: arial, sans-serif;
+    text-align: left;
 }
 
 p {
@@ -44,24 +45,26 @@ p {
 #wrapper {
     float: left;
     width: 100%;
+    margin-left: -30%;
 }
 
 #content {
-    margin: 0 25%;
+    float: right;
+    margin-left: 30%;
 }
 
 #navigation {
-    float: left;
-    width: 25%;
-    margin-left: -100%;
+    float: right;
+    width: 30%;
 }
 
 #extra {
-    float: left;
-    width: 25%;
-    margin-left: -25%;
+    float: right;
+    width: 30%;
+    clear: right;
 }
 
 #footer {
-    clear: left;
+    clear: both;
+
 }

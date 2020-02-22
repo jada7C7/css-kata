@@ -47,7 +47,7 @@ p {
 }
 
 #content {
-    margin: 0 25%;
+    margin: 0 0 0 50%;
 }
 
 #navigation {
@@ -59,9 +59,10 @@ p {
 #extra {
     float: left;
     width: 25%;
-    margin-left: -25%;
+    margin-left: -75%;
 }
 
 #footer {
     clear: left;
+   
 }

@@ -1,6 +1,10 @@
 #container {
     font-size: 12px;
     font-family: arial, sans-serif;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 p {
@@ -47,21 +51,22 @@ p {
 }
 
 #content {
-    margin: 0 25%;
+    margin: 0px 150px;
 }
 
 #navigation {
     float: left;
-    width: 25%;
-    margin-left: -100%;
+    width: 150px;
+    margin-left: -700px;
 }
 
 #extra {
     float: left;
-    width: 25%;
-    margin-left: -25%;
+    width: 150px;
+    margin-left: -150px;
 }
 
 #footer {
     clear: left;
+
 }

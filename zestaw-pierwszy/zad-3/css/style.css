@@ -47,13 +47,13 @@ p {
 }
 
 #content {
-    margin: 0 25%;
+    margin: 0 50% 0 0;
 }
 
 #navigation {
     float: left;
     width: 25%;
-    margin-left: -100%;
+    margin-left: -50%;
 }
 
 #extra {
@@ -64,4 +64,5 @@ p {
 
 #footer {
     clear: left;
+
 }

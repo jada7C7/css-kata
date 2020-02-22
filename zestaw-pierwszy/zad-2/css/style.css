@@ -53,15 +53,16 @@ p {
 #navigation {
     float: left;
     width: 25%;
-    margin-left: -100%;
+    margin-left: -25%;
 }
 
 #extra {
     float: left;
     width: 25%;
-    margin-left: -25%;
+    margin-left: -100%;
 }
 
 #footer {
     clear: left;
+
 }
