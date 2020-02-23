@@ -1,0 +1,10 @@
+
+div{
+    background-image: linear-gradient( red, orange);
+    width: 50%;
+}
+
+p{
+    background: grey;
+    width: 50%;
+}

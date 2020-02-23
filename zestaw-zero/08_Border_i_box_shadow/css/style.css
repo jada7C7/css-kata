@@ -1,0 +1,40 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#rectangle_1 {
+  width: 700px;
+  height: 500px;
+  border: 4px dotted #00CCCC;
+  margin-top: 30px;
+  padding: 20px;
+
+}
+
+#rectangle_2 {
+  width: 400px;
+  height: 600px;
+  border: 4px dashed #339933;
+  margin-top: 30px;
+  white-space: normal;
+  padding: 20px;
+  
+}
+
+p {
+  margin: 35px;
+}
+
+#rectangle_3 {
+  display: block-inline;
+  width: 500px;
+  height: 500px;
+  border: 16px double #FF3333;
+  margin: 20px;
+  padding: 20px;
+}
+.set_of_rectangles{
+  display: inline-block;
+   margin: 20px;
+}

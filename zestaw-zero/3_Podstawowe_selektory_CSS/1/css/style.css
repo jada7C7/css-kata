@@ -1,0 +1,24 @@
+/*komentarze*/
+p{ 
+    background: #ff0000;
+}
+p#inny{
+    background-color: #0000ff;
+}
+div.blog{
+    background-color: #c2b280;
+}
+div.blog p{
+    background-color: #ffc0cb;}
+div#rodzic>p{ 
+    background-color: #00FF00;
+}
+div#rodzic p{
+    background-color: #0000ff;
+}
+div#other+p{ 
+    background-color: #964b00;
+}
+div#other div p{ 
+    background-color: #B803FF;
+}

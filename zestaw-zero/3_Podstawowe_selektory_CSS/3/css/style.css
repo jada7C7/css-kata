@@ -1,0 +1,12 @@
+/*komentarze*/
+input[type="submit"]{
+    background-color:#00CED1;
+}
+input[type="email"]{
+    background-color:#00FF7F;
+}
+div> span[class~="important"]{ 
+    background-color: #FF0000;
+}div> span[class^="important"]{ 
+    background-color: pink;
+}

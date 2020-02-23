@@ -1,0 +1,11 @@
+div#grunwald{
+    height: 300px;
+    width: 300px;
+    background-image: url(../images/grunwald.jpg);
+    position: relative;
+   
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+}
