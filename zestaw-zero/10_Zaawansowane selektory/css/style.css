@@ -1,0 +1,141 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/*zad 1*/
+
+#container {
+  width: 300px;
+  height: 400px;
+  display: block;
+  border: 6px solid #0066FF;
+  margin: 0 0 0 0;
+  background-color: #00CCCC;
+}
+
+#container :hover {
+  border-radius: 50%;
+  background-color: #6699FF;
+}
+
+#container :active {
+  box-shadow: -13px 5px 80px 11px rgba(37, 114, 176, 1);
+  background-color: #ffffff;
+}
+
+p {
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/*zad 2*/
+
+#nav li {
+  display: inline-block;
+  background-color: #f39c12;
+  border-radius: 50%;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#nav a {
+  text-decoration: none;
+}
+
+#nav a :link {
+  background-color: #FF0033;
+}
+
+#nav a:hover {
+  color: #33FF00;
+}
+
+#nav a:visited {
+  color: #777777;
+}
+
+/*zad 3*/
+
+#navigation li {
+  display: block;
+  width: 75px;
+  background-color: #009999;
+}
+
+#navigation {
+  list-style-type: none;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+#navigation li:first-child {
+  border-radius: 20px 0 0 0;
+}
+
+#navigation li:last-child {
+  border-radius: 0 0 20px 0;
+}
+
+#zebra p:nth-child(odd) {
+  background-color: #9DA5A6;
+  display: block;
+}
+
+#other div:first-child {
+  background-color: #7CFC00;
+}
+
+#other div:last-child {
+  background-color: #00FFFF;
+}
+
+#from_end div:nth-last-child(2n+1) {
+  background-color: #FF8C00;
+}
+
+/*zad 4*do skonczenia*/
+
+.text {
+  position: absolute;
+  margin: auto;
+  border: 1px solid #D1D5D8;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 0 #ccc;
+}
+
+/*zad 5*/
+
+tbody>tr>td {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+thead>tr>th {
+  color: #FFFFFF;
+  background-color: #33cccc;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+
+tbody>tr:nth-child(even) {
+  background-color: #99ffff;
+}
+
+tbody>tr:nth-child(odd) {
+  background-color: #0099ff;
+}
+
+tbody>tr:hover {
+  color: red;
+}
