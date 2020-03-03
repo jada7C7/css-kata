@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  margin: 8px;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+  
+}
+

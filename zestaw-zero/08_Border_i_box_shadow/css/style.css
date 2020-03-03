@@ -1,40 +1,61 @@
-body, html {
-  margin: 0;
-  padding: 0;
-}
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
 
-#rectangle_1 {
-  width: 700px;
-  height: 500px;
-  border: 4px dotted #00CCCC;
-  margin-top: 30px;
-  padding: 20px;
+  .shape p {
+    margin: 35px;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+  }
 
-}
+  .shape {
+    margin: 80px;
+  }
 
-#rectangle_2 {
-  width: 400px;
-  height: 600px;
-  border: 4px dashed #339933;
-  margin-top: 30px;
-  white-space: normal;
-  padding: 20px;
-  
-}
+  .popup {
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFCC;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin: 80px;
+  }
 
-p {
-  margin: 35px;
-}
+  #circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 5px #990033;
+    background-color: #FF0033;
+    text-align: center;
+    padding-top: 75px;
+    box-sizing: border-box;
+  }
 
-#rectangle_3 {
-  display: block-inline;
-  width: 500px;
-  height: 500px;
-  border: 16px double #FF3333;
-  margin: 20px;
-  padding: 20px;
-}
-.set_of_rectangles{
-  display: inline-block;
-   margin: 20px;
-}
+  #elipse {
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: -20px -10px 60px 3px blue, 20px 10px 0 3px red;
+    background-color: #0066FF;
+    
+  }
+
+  #lime {
+    width: 350px;
+    height: 350px;
+    border-radius: 0 80px 0 80px;
+    box-shadow: 56px 72px 8px -32px rgba(22, 76, 89, 1);
+    background-color: #6699FF;
+    text-align: center;
+    padding-top: 75px;
+    box-sizing: border-box;
+  }
