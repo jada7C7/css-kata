@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="eng">
+<html lang="pl">
 
 <head>
   <meta charset="UTF-8">
@@ -14,10 +14,22 @@
 
 <body>
 
+  <form action="https://google.com" method="get">
+    <label>Imię użytkowanika<input name="Imię użytkownika" type="text" placeholder="Wpisz imię użytkownika" autofocus/>
+    </label>
+    <label>Nazwisko użytkowanika<input name="Nazwisko użytkownika" type="text"
+        placeholder="Wpisz nazwisko użytkownika" /> </label>
+    <label>E-mail użytkowanika<input name="E-mail użytkownika" type="email" placeholder="Podaj e-mail użytkownika"
+        autocomplete="on" required/> </label>
+    <label>Hasło użytkowanika<input name="Hasło użytkownika" type="password" placeholder="Hasło użytkownika"
+        autocomplete="on" /> </label>
+    <label>Powtórz hasło użytkowanika<input name="Hasło użytkownika" type="password" placeholder="Hasło użytkownika" />
+    </label>
+    <label> Informacje o sobie <textarea name="about" placeholder="Podaj informacje o sobie" rows="6"
+        cols="2"> </textarea></label>
 
-  <header class="site-header"><img src=../images/night-sky.jpg alt="Night sky" title="Night sky"></header>
-  <section> </section>
-  <footer></footer>
+    <button type="Submit">Wyślij</button>
+  </form>
 </body>
 
 </html>

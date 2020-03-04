@@ -5,12 +5,31 @@
 body {
   font-family: 'Lato', sans-serif;
   display: block;
-  margin: 8px;
+
 }
 
-img {
-  width: 100%;
-  margin: 0 auto;
-  
+textarea,  input {
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  background-color: #E6E6FA;
+  padding: 10px;
+  font-size: 12px;
+   width: 100%
 }
+form{
+  margin: 0 auto 0 auto;
+  font-size: 12px;
+  display:block;
+  width: 400px;
 
+}
+button{
+  display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
+  background-color: #66CDAA;
+  padding: 10px;
+  font-size: 12px;
+   width: 100%
+}
